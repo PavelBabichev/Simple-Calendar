@@ -1,0 +1,13 @@
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\bin\Debug\Calendar.exe.config
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\bin\Debug\Calendar.exe
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\bin\Debug\Calendar.pdb
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.csprojResolveAssemblyReference.cache
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\MainWindow.baml
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\MainWindow.g.cs
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\App.g.cs
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.cache
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.g.resources
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.Properties.Resources.resources
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.csproj.GenerateResource.Cache
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.exe
+c:\users\pavel.pavel-пк\documents\visual studio 2013\Projects\Calendar\Calendar\obj\Debug\Calendar.pdb

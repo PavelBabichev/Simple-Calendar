@@ -1,0 +1,46 @@
+﻿<Window x:Class="Calendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SimpleCalendar" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TreeView Grid.Column="0" Name="treeWiev" >
+            <TreeViewItem Header="Зима">
+                <TreeViewItem Header="Декабрь"></TreeViewItem>
+                <TreeViewItem Header="Январь"></TreeViewItem>
+                <TreeViewItem Header="Февраль"></TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Весна">
+                <TreeViewItem Header="Март"></TreeViewItem>
+                <TreeViewItem Header="Апрель"></TreeViewItem>
+                <TreeViewItem Header="Май"></TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Лето">
+                <TreeViewItem Header="Июнь"></TreeViewItem>
+                <TreeViewItem Header="Июль"></TreeViewItem>
+                <TreeViewItem Header="Август"></TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Осень">
+                <TreeViewItem Header="Сентябрь"></TreeViewItem>
+                <TreeViewItem Header="Октябрь"></TreeViewItem>
+                <TreeViewItem Header="Ноябрь"></TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+        <ListView Name="monthList" ItemsSource="{Binding}" Grid.Column="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Monday}">Пн</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Tuesday}">Вт</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Wednesday}">Ср</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Thursday}">Чт</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Friday}">Пт</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Saturday}">Сб</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Sunday}">Вс</GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
